@@ -17,9 +17,9 @@ int main() {
     int y = 5;
     int с = 3;
 
-    std::cout << "Сложение: " << addition(x, y) << std::endl;
-    std::cout << "Вычитание: " << subtraction(x, y) << std::endl;
-    std::cout << "Умножение: " << multiplication(x, с) << std::endl;
+    std::cout << "Addition: " << addition(x, y) << std::endl;
+    std::cout << "Subtraction: " << subtraction(x, y) << std::endl;
+    std::cout << "Multiplication: " << multiplication(x, с) << std::endl;
 
     return 0;
 }
