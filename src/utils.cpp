@@ -11,15 +11,3 @@ int subtraction(int a, int b) {
 int multiplication(int a, int с) {
     return a * с;
 }
-
-int main() {
-    int x = 10;
-    int y = 5;
-    int с = 3;
-
-    std::cout << "Addition: " << addition(x, y) << std::endl;
-    std::cout << "Subtraction: " << subtraction(x, y) << std::endl;
-    std::cout << "Multiplication: " << multiplication(x, с) << std::endl;
-
-    return 0;
-}
